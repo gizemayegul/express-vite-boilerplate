@@ -1,0 +1,16 @@
+{
+  "name": "vite-express-boilerplate-nots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fullstack": "concurrently --kill-others \"npm --prefix ./server run dev\" \"npm --prefix ./client run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
